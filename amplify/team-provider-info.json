@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oscars2022-dev-184124-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613444755180:role/amplify-oscars2022-dev-184124-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613444755180:role/amplify-oscars2022-dev-184124-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-oscars2022-dev-184124-deployment",
+      "UnauthRoleName": "amplify-oscars2022-dev-184124-unauthRole",
+      "StackName": "amplify-oscars2022-dev-184124",
+      "StackId": "arn:aws:cloudformation:us-east-1:613444755180:stack/amplify-oscars2022-dev-184124/02419ea0-8c2b-11ec-a620-0eea388cb225",
+      "AmplifyAppId": "dj2pvkslzypne"
+    },
+    "categories": {
+      "function": {
+        "oscarsfunction": {
+          "deploymentBucketName": "amplify-oscars2022-dev-184124-deployment",
+          "s3Key": "amplify-builds/oscarsfunction-71573579394c68772b65-build.zip"
+        }
+      }
+    }
+  }
+}

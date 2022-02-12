@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/entry",
+            "lambdaFunction": "oscarsfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/entry"
+        }
+    ],
+    "resourceName": "oscarsapi",
+    "apiName": "oscarsapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "oscarsfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-oscars2022-dev-184124-authRole",
+        "unAuthRoleName": "amplify-oscars2022-dev-184124-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "oscarsfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
