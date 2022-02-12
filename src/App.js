@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './oscar2021.png';
-import monkeys from './rosefamily.png';
+import logo from './oscar2022.png';
+import monkeys from './spidermeme.png';
 
 import {Container, Button, Form} from 'react-bootstrap';
 
@@ -61,7 +61,6 @@ function App() {
       <div>
         <div align="center">
         <p><img src={logo} alt="Web-Goddess Oscar Contest 2022" className="logo" /></p>
-        <h3>Enter the 2022 W-G Oscars Contest</h3>
         </div>
         <br/>
         <p><strong>The Rules:</strong></p>
@@ -70,7 +69,7 @@ function App() {
         <li> Once all the categories are announced, the winner will be the person whose final entry predicted the most categories correctly.</li>
         <li> In the event of a tie, the tie-breaker will be whoever comes closest to the number of celebrities featured in the "In Memoriam" reel.</li>
         <li> If that still doesn't break the tie, the winner will be whoever's entry was submitted first.</li>
-        <li> The winner will receive a set of three Spider-Monkeys so you can act out scenes from <em>Spider-Man: No Way Home</em> (or the meme!). Scroll down to the bottom to see them, or head to <a href="https://www.web-goddess.org/archive/22175">my blog</a> for details.</li>
+        <li> The winner will receive a set of three Spider-Monkeys so you can act out scenes from <em>Spider-Man: No Way Home</em> (or the <a href="https://knowyourmeme.com/memes/spider-man-pointing-at-spider-man">meme</a>!). Scroll down to the bottom to see them, or head to <a href="https://www.web-goddess.org/archive/22175">my blog</a> for details.</li>
         <li> The contest is open for entries until a few hours before the Academy Awards on Sunday, March 27th. I'll announce the winner the next morning when I get up and calculate the scores.</li>
         <li> If the winner's email address is invalid or they don't respond within a week, I reserve the right to send the prize to the next highest scoring entry.</li>
         <li> It's absolutely free to enter, and I'll bear the cost of shipping the monkeys to you. Just pay it forward sometime, okay?</li></ol>
@@ -240,7 +239,7 @@ function App() {
         &nbsp;
       </div>
       <div align="center">
-      <p><img src={monkeys} alt="Rose Family Sock Monkeys" className="monkeys" /></p>
+      <p><img src={monkeys} alt="Spider-Monkeys" className="monkeys" /></p>
       </div>
     </Container>
   );
